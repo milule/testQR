@@ -1,0 +1,15 @@
+{
+    "info": {
+        "media": "/www/media",
+        "busdata": "/www/busdata",
+        "log": "/var/log/easytravel",
+        "backend": "/home/vndevadmin/devops/backend",
+        "frontend": "/home/vndevadmin/devops/frontend",
+        "text": "/www/datalocally/",
+        "path_org": "/datalocally/",
+        "path_download_bus": "/www/download_bus_arrival",
+        "path_save_gz_file": "/www/gzfile",
+        "path_log_debugger": "/var/log/easytravel/",
+        "path_upload_file_tmp": "/www/download_bus_arrival"
+    }
+}

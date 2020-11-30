@@ -1,0 +1,697 @@
+{
+  "AW001001": {
+    "data": {
+      "userName": "日日日",
+      "userType": 0,
+      "basicShiftId": 1001,
+      "token": "J1f8lQDY0kgheoSWmX2yRGW8Kz80wT2qKcJWokORvM0lozdNMbpRi4rrFp1Uy02WfdKwvQZp9nZxqNb5SaVv7iS1JYwU0txnWRUCJM",
+      "currentPoint": 12345,
+      "systemDate": "2019-03-14"
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001001A": {
+    "data": {
+      "userName": "通通通",
+      "userType": 1,
+      "basicShiftId": 1001,
+      "token": "J1f8lQDY0kgheoSWmX2yRGW8Kz80wT2qKcJWokORvM0lozdNMbpRi4rrFp1Uy02WfdKwvQZp9nZxqNb5SaVv7iS1JYwU0txnWRUCJM",
+      "currentPoint": 54321,
+      "systemDate": "2019-03-14"
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001002": {
+    "data": {
+      "userName": "郎郎郎",
+      "userType": "0",
+      "basicShiftId": "1001",
+      "token": "J1f8lQDY0kgheoSWmX2yRGW8Kz80wT2qKcJWokORvM0lozdNMbpRi4rrFp1Uy02WfdKwvQZp9nZxqNb5SaVv7iS1JYwU0txnWRUCJM",
+      "currentPoint": "12345",
+      "systemDate": "2019-03-14"
+    },
+    "error": false,
+    "code": 0,
+    "message": "正常"
+  },
+  "AW001003": {
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001003E": {
+    "error": true,
+    "code": 101,
+    "message": "アプリが使用不可になっています。"
+  },
+  "AW001004": {
+    "data": {
+      "systemDate": "2019-03-14"
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001005": {
+    "error": false,
+    "code": 0,
+    "message": "正常"
+  },
+  "AW001006": {
+    "data": {
+      "systemDate": "2019-03-18",
+      "count": 5,
+      "shiftRegistList": [
+        {
+          "caseId": 100,
+          "dateFrom": "2018-09-05",
+          "dateTo": "2018-09-20",
+          "periodDate": "2018-09-20",
+          "managerMessage": "9月の土日はたくさん入ってください！",
+          "priorityDateFrom": "",
+          "priorityDateTo": "",
+          "shifts": [
+            {
+              "date": "2018-09-05",
+              "workerShiftId": 1001
+            },
+            {
+              "date": "2018-09-06",
+              "workerShiftId": -1
+            },
+            {
+              "date": "2018-09-07",
+              "workerShiftId": -1
+            },
+            {
+              "date": "2018-09-08",
+              "workerShiftId": 1002
+            }
+          ],
+          "workerMessage": "99"
+        },
+        {
+          "caseId": 101,
+          "dateFrom": "2018-08-01",
+          "dateTo": "2018-08-30",
+          "periodDate": "2018-08-20",
+          "managerMessage": "8月の土日はたくさん入ってください！",
+          "priorityDateFrom": "2018-08-25",
+          "priorityDateTo": "2018-08-30",
+          "shifts": [
+            {
+              "date": "2018-08-01",
+              "workerShiftId": 1001
+            },
+            {
+              "date": "2018-08-02",
+              "workerShiftId": 1002
+            }
+          ],
+          "workerMessage": "88"
+        },
+        {
+          "caseId": 102,
+          "dateFrom": "2018-10-01",
+          "dateTo": "2018-10-31",
+          "periodDate": "2018-10-20",
+          "managerMessage": "10月の土日はたくさん入ってください！",
+          "priorityDateFrom": "2018-10-25",
+          "priorityDateTo": "2018-10-31",
+          "shifts": [
+            {
+              "date": "2018-10-01",
+              "workerShiftId": 1001
+            },
+            {
+              "date": "2018-10-02",
+              "workerShiftId": 1002
+            }
+          ],
+          "workerMessage": "10"
+        },
+        {
+          "caseId": 104,
+          "dateFrom": "2018-12-01",
+          "dateTo": "2018-12-31",
+          "periodDate": "2018-12-20",
+          "managerMessage": "12月の土日はたくさん入ってください！",
+          "priorityDateFrom": "2018-12-25",
+          "priorityDateTo": "2018-12-31",
+          "shifts": [
+            {
+              "date": "2018-12-01",
+              "workerShiftId": 1001
+            },
+            {
+              "date": "2018-12-02",
+              "workerShiftId": 1002
+            }
+          ],
+          "workerMessage": "12"
+        },
+        {
+          "caseId": 104,
+          "dateFrom": "2019-01-01",
+          "dateTo": "2019-01-31",
+          "periodDate": "2018-12-20",
+          "managerMessage": "1月の土日はたくさん入ってください！",
+          "priorityDateFrom": "2019-01-01",
+          "priorityDateTo": "2019-01-15",
+          "shifts": [
+            {
+              "date": "2019-01-01",
+              "workerShiftId": 1001
+            },
+            {
+              "date": "2019-01-03",
+              "workerShiftId": 1002
+            }
+          ],
+          "workerMessage": "01"
+        }
+      ],
+      "canSelectShifts": [
+        {
+          "shiftId": -1,
+          "shiftName": "-1",
+          "shiftStartTime": "10:00",
+          "shiftEndTime": "19:00"
+        },
+        {
+          "shiftId": -2,
+          "shiftName": "-2",
+          "shiftStartTime": "10:00",
+          "shiftEndTime": "19:00"
+        },
+        {
+          "shiftId": -3,
+          "shiftName": "-3",
+          "shiftStartTime": "10:00",
+          "shiftEndTime": "19:00"
+        },
+        {
+          "shiftId": 1002,
+          "shiftName": "xxB",
+          "shiftStartTime": "10:00",
+          "shiftEndTime": "19:00"
+        },
+        {
+          "shiftId": 1001,
+          "shiftName": "xxxA",
+          "shiftStartTime": "09:00",
+          "shiftEndTime": "18:00"
+        }
+      ]
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001007": {
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001007E": {
+    "error": true,
+    "code": 101,
+    "message": "希望シフトの入力期間ではありません。"
+  },
+  "AW001008": {
+    "data": {
+      "systemDate": "2018-11-14",
+      "changeDeadline": 10,
+      "count": 0,
+      "shiftList": [
+
+        {
+          "caseId": 11,
+          "dateFrom": "2019-11-01",
+          "dateTo": "2019-11-20",
+          "shifts": [
+            {
+              "date": "2019-11-01",
+              "shiftNameBefore": "A",
+              "shiftChangeId": 1001,
+              "shiftNameAfter": "B",
+              "status": 1
+            },
+            {
+              "date": "2019-11-02",
+              "shiftNameBefore": "C",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "D",
+              "status": 2
+            },
+            {
+              "date": "2019-11-03",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 3
+            },
+            {
+              "date": "2019-11-04",
+              "shiftNameBefore": "G",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "H",
+              "status": 4
+            },
+            {
+              "date": "2019-11-05",
+              "shiftNameBefore": "I",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "J",
+              "status": 5
+            },
+            {
+              "date": "2019-11-06",
+              "shiftNameBefore": "欠勤",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "L",
+              "status": 6
+            }
+          ]
+        },
+        
+
+        {
+          "caseId": 222,
+          "dateFrom": "2018-12-10",
+          "dateTo": "2018-12-15",
+          "shifts": [
+            {
+              "date": "2018-12-12",
+              "shiftNameBefore": "M",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "N",
+              "status": 1
+            }
+          ]
+        },
+        {
+          "caseId": 3,
+          "dateFrom": "2019-09-01",
+          "dateTo": "2019-09-29",
+          "shifts": [
+            {
+              "date": "2019-09-01",
+              "shiftNameBefore": "S",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "T",
+              "status": 1
+            },
+            {
+              "date": "2019-09-02",
+              "shiftNameBefore": "U",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "V",
+              "status": 2
+            },
+            {
+              "date": "2019-09-03",
+              "shiftNameBefore": "W",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "X",
+              "status": 3
+            },
+            {
+              "date": "2019-09-04",
+              "shiftNameBefore": "W",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "X",
+              "status": 4
+            },
+            {
+              "date": "2019-09-05",
+              "shiftNameBefore": "W",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "X",
+              "status": 5
+            },
+            {
+              "date": "2019-09-06",
+              "shiftNameBefore": "W",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "X",
+              "status": 6
+            }
+          ]
+        },
+        {
+          "caseId": 4,
+          "dateFrom": "2019-10-05",
+          "dateTo": "2019-10-30",
+          "shifts": [
+            {
+              "date": "2019-10-19",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "XF",
+              "status": 1
+            },
+            {
+              "date": "2019-10-20",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 2
+            },
+            {
+              "date": "2019-10-21",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 3
+            },
+            {
+              "date": "2019-10-22",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 4
+            },
+            {
+              "date": "2019-10-23",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 5
+            },
+            {
+              "date": "2019-10-24",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 6
+            }
+          ]
+        },
+        {
+          "caseId": 1231,
+          "dateFrom": "2019-05-01",
+          "dateTo": "2019-05-11",
+          "shifts": [
+            {
+              "date": "2019-05-01",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 1
+            }
+          ]
+        },
+        {
+          "caseId": 5,
+          "dateFrom": "2019-12-25",
+          "dateTo": "2019-12-30",
+          "shifts": [
+            {
+              "date": "2019-12-25",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 1
+            },
+            {
+              "date": "2019-12-26",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 2
+            },
+            {
+              "date": "2019-12-27",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 3
+            },
+            {
+              "date": "2019-12-28",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 4
+            },
+            {
+              "date": "2019-12-29",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 5
+            },
+            {
+              "date": "2019-12-30",
+              "shiftNameBefore": "E",
+              "shiftChangeId": 1002,
+              "shiftNameAfter": "F",
+              "status": 6
+            }
+          ]
+        }
+      ]
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001009": {
+    "data": {
+      "systemDate": "2019-03-14",
+      "date": "2018-11-01",
+      "currentShiftId": null,
+      "currentShiftName": "Z",
+      "currentShiftStartTme": "22:00",
+      "currentShiftEndTime": "06:00",
+      "managerMessage": "ご協力をお願いします！",
+      "selectedShiftId": 1,
+      "managerDecidedShiftId": 1,
+      "managerDecidedMessage": "ご協力ありがとうございます！",
+      "canSelectShifts": [
+        {
+          "shiftId": 1,
+          "shiftName": "A",
+          "shiftStartTime": "09:00",
+          "shiftEndTime": "18:00"
+        },
+        {
+          "shiftId": 2,
+          "shiftName": "B",
+          "shiftStartTime": "10:00",
+          "shiftEndTime": "19:00"
+        }
+      ],
+      "status": 1
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001009E": {
+    "error": true,
+    "code": 101,
+    "message": "シフト変更要請が終了しました。"
+  },
+  "AW001010": {
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001010E1": {
+    "error": true,
+    "code": 101,
+    "message": "シフト変更要請が終了しました。"
+  },
+  "AW001010E2": {
+    "error": true,
+    "code": 102,
+    "message": "ワーカーの応答が登録済みです。"
+  },
+  "AW001011": {
+    "data": {
+      "date": "2018-11-01",
+      "status": 5,
+      "currentShiftId": 1,
+      "currentShiftName": "A",
+      "changedShiftId": 2,
+      "changedShiftName": "B",
+      "decidedFlg": 1,
+      "canSelectShifts": [
+        {
+          "changeShiftId": 1,
+          "changeShiftName": "A",
+          "changeShiftStartTime": "09:00",
+          "changeShiftEndTime": "18:00"
+        },
+        {
+          "changeShiftId": 2,
+          "changeShiftName": "B",
+          "changeShiftStartTime": "10:00",
+          "changeShiftEndTime": "19:00"
+        },
+        {
+          "changeShiftId": 3,
+          "changeShiftName": "C",
+          "changeShiftStartTime": "10:00",
+          "changeShiftEndTime": "19:00"
+        },
+        {
+          "changeShiftId": 500,
+          "changeShiftName": "D",
+          "changeShiftStartTime": "10:00",
+          "changeShiftEndTime": "19:00"
+        },
+        {
+          "changeShiftId": 400,
+          "changeShiftName": "E",
+          "changeShiftStartTime": "10:00",
+          "changeShiftEndTime": "19:00"
+        },
+        {
+          "changeShiftId": 401,
+          "changeShiftName": "F",
+          "changeShiftStartTime": "10:00",
+          "changeShiftEndTime": "19:00"
+        }
+      ],
+      "changeReason": "検査入院が必要なため休ませてください。",
+      "managerMessage": "了解しました。お大事に。"
+    },
+    "error": true,
+    "code": 200,
+    "message": ""
+  },
+  "AW001011E": {
+    "data": {},
+    "error": true,
+    "code": 0,
+    "message": "エラーが発生しました。"
+  },
+  "AW001012": {
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001012E": {
+    "error": true,
+    "code": 102,
+    "message": "対象日がワーカー申請によるシフト変更中ではありません。"
+  },
+  "AW001013": {
+    "data": [
+      {
+        "workNumberId": 11,
+        "workCode": "15",
+        "workUseLevel": "02",
+        "displayText": "Stow To Prime"
+      },
+      {
+        "workNumberId": 12,
+        "workCode": "58",
+        "workUseLevel": "01",
+        "displayText": "Pick"
+      },
+      {
+        "workNumberId": 14,
+        "workCode": "80",
+        "workUseLevel": "02",
+        "displayText": "休憩"
+      }
+    ],
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001014": {
+    "data": {
+      "systemDate": "2019-03-18",
+      "worksheetInfoList": [
+        {
+          "date": "2018-11-01",
+          "shiftId": 1,
+          "shiftName": "A",
+          "shiftStartTime": "05:00",
+          "shiftEndTime": "18:00",
+          "beginTime": "04:45",
+          "finishTime": "18:15"
+        },
+        {
+          "date": "2018-11-02",
+          "shiftId": 2,
+          "shiftName": "B",
+          "shiftStartTime": "18:00",
+          "shiftEndTime": "05:00",
+          "beginTime": "04:45",
+          "finishTime": "18:15"
+        }
+      ]
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001015": {
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001015E": {
+    "error": true,
+    "code": 101,
+    "message": "ワークシートが提出済みです。"
+  },
+  "AW001016": {
+    "data": {
+      "systemDate": "2019-03-18",
+      "noticeInfoList": [
+        {
+          "id": 10,
+          "publishedDate": "2018-05-12",
+          "title": "給与の振込について",
+          "isRead": 0
+        },
+        {
+          "id": 11,
+          "publishedDate": "2018-05-03",
+          "title": "5月24日出勤者の皆様への連絡事項",
+          "isRead": 0
+        },
+        {
+          "id": 12,
+          "publishedDate": "2018-05-05",
+          "title": "5月26日出勤者の皆様への連絡事項",
+          "isRead": 1
+        },
+        {
+          "id": 14,
+          "publishedDate": "2018-05-09",
+          "title": "5月26日出勤者の皆様への連絡事項",
+          "isRead": 0
+        }
+      ]
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001017": {
+    "data": {
+      "systemDate": "2019-03-18",
+      "content": "おつかれさまです。１０月の希望シフトの締切は８月２０日までです。シフトは早く提出された方から優先して決定しております。提出が遅れた場合は、希望のシフトにならない事があります。遅れないようによろしくお願いいたします。"
+    },
+    "error": false,
+    "code": 0,
+    "message": ""
+  },
+  "AW001017E": {
+    "error": true,
+    "code": 101,
+    "message": "業務連絡の公開が終了しています。"
+  }
+}

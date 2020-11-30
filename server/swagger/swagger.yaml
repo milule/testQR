@@ -1,0 +1,406 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: NeoCenete List APIs
+# during dev, should point to your local machine
+# host: neocenter.easytravel.sg
+host: localhost:8000
+
+# basePath prefixes all resource paths
+#basePath: /
+basePath: /v1
+#
+schemes:
+  # tip: remove http to make production-grade
+  - https
+  - http
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+  - application/octet-stream
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+  - application/octet-stream
+paths:
+  /getTermsText:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001001
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /users/autoLogin:
+    x-swagger-router-controller: UserManagementController
+    post:
+      tags:
+        - User Management
+      operationId: AW001002
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /users/saveDeviceToken:
+    x-swagger-router-controller: UserManagementController
+    post:
+      tags:
+        - User Management
+      operationId: AW001003
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /systemDate:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001004
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /logout:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001005
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /shiftRegistList:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001006
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /shifts/update:
+    x-swagger-router-controller: UserManagementController
+    put:
+      tags:
+        - User Management
+      operationId: AW001007
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /shiftConfirmList:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001008
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /shiftAdminRequestInfo:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001009
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /shiftAdminRequestAnswer:
+    x-swagger-router-controller: UserManagementController
+    patch:
+      tags:
+        - User Management
+      operationId: AW001010
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /workerRequestChangeShiftInfo:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001011
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /workerRequestChangeShiftUpdate:
+    x-swagger-router-controller: UserManagementController
+    patch:
+      tags:
+        - User Management
+      operationId: AW001012
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /worksheets/master:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001013
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /worksheetList:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001014
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /worksheets:
+    x-swagger-router-controller: UserManagementController
+    post:
+      tags:
+        - User Management
+      operationId: AW001015
+      description: This endpoint can be used to retrieve user details given the user_id
+      parameters:
+        - in: body
+          name: requestparam
+          schema:
+            type: object
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /notices/list:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001016
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  /notices/detail:
+    x-swagger-router-controller: UserManagementController
+    get:
+      tags:
+        - User Management
+      operationId: AW001017
+      description: This endpoint can be used to retrieve user details given the user_id
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/BaseResponse"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/BaseResponse"
+
+  #========================================================
+  # END DEFINE APIs
+  #========================================================
+  /swagger:
+    x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+  #
+  GeneralResponse:
+    type: object
+    properties:
+      success:
+        type: number
+        description: returns 1 if successful
+      description:
+        type: string
+        description: a short comment
+    required:
+      - success
+      - description
+  #
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  #
+  BaseResponse:
+    properties:
+      errCode:
+        type: string
+      errMsg:
+        type: string
+      data:
+        type: object
+  #
+  BaseListResponse:
+    properties:
+      errCode:
+        type: string
+      errMsg:
+        type: string
+      data:
+        type: array
+        items:
+          type: object

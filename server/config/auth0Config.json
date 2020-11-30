@@ -1,0 +1,14 @@
+{
+    "regular_web_app": {
+        "domain": "dev-jmnp9qgd.au.auth0.com",
+        "client_id": "yqMT7YPc1X84FoSxIO6T2H27gOqMRogI",
+        "client_secret": "GMg7mrkQoWqd3KIC4D8cEPjWMQIMWBvPQB8ElnpSBXoPQXwxeRqisnphYkkqwqP1",
+        "connection": "Username-Password-Authentication"
+    },
+    "machine_to_machine": {
+        "domain": "dev-jmnp9qgd.au.auth0.com",
+        "client_id": "IRRe2JMRBo4XTHCqkHzZgJA22BWZohXV",
+        "client_secret": "bYZf7X4LtJddFxRLYA2vUbWZaE5GuwU_UPvIme4oJ7YrzTdG7_9BaPmQLFvmy8Am",
+        "connection": "Username-Password-Authentication"
+    }
+  }

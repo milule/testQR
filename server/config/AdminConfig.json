@@ -1,0 +1,15 @@
+{
+  "info": {
+    "accountid": "admin",
+    "firstname": "Admin",
+    "lastname": "Super",
+    "displayname": "Admin Super",
+    "tel": "111111",
+    "email": "admin@gmail.com",
+    "avatar": "",
+    "password": "admin"
+  },
+  "schedule_alarm": {
+    "time": "10"
+  }
+}

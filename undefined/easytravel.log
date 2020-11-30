@@ -1,0 +1,7 @@
+[2019-06-19T14:57:06.602] [INFO] [File: app.js] - ===============================================================
+[2019-06-19T14:57:06.603] [INFO] [File: app.js] - The [app.js] is started running
+[2019-06-19T14:57:06.603] [INFO] [File: app.js] - ===============================================================
+[2019-06-19T14:57:06.616] [ERROR] [File: app.js] - startSyncDatamall#error::TypeError: Cannot read property 'initConector' of undefined
+[2019-06-19T14:57:06.695] [INFO] [File: app.js] - ===============================================================
+[2019-06-19T14:57:06.695] [INFO] [File: app.js] - The [app.js] is finished running
+[2019-06-19T14:57:06.695] [INFO] [File: app.js] - ===============================================================

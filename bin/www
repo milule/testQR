@@ -1,0 +1,28 @@
+// This will be our application entry. We'll setup our server here.
+//==========================================================
+// This will be our application entry. We'll setup our server here.
+const http = require('http');
+const serverInfo = [
+    {
+        // port: parseInt(process.env.PORT, 10) || 5000,
+        port: 8000,
+        appPath: '../app',
+        // extension
+        isStartSocket: false,
+        socketPath: '../server/services/socketService',
+    }
+];
+
+serverInfo.map((ser ,i) => {
+    const info = JSON.parse(JSON.stringify(ser));
+    const port = info.port;
+    const app = require(info.appPath);
+    // app.set('port', port);
+    const server = http.createServer(app);
+    server.listen(port);
+    // start socket
+    if (info.isStartSocket) {
+        const SocketSingleton = require(info.socketPath);
+        SocketSingleton.start(server);
+    }
+});

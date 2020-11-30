@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Necvn@123",
+    "database": "neocenterdb1",
+    "host": "172.30.47.194",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "timezone": "+08:00",
+    "underscored": true,
+    "dialectOptions": {
+      "useUTC": false,
+      "dateStrings": true,
+      "typeCast": true
+    },
+    "define" : {
+      "freezeTableName": true,
+      "timestamps": false
+    },
+    "pool": {
+      "max": 50,
+      "min": 0,
+      "idle": 10000,
+      "acquire": 60000,
+      "evict": 10000,
+      "connectTimeout": 1000000,
+      "handleDisconnects": false
+    }
+  }
+}

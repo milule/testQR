@@ -1,0 +1,20 @@
+{
+    "zmq_client": {
+        "tcp_client": "tcp://127.0.0.1:7100",
+        "topic_name": "zero_mq",
+        "topic_alert": "zero_mq_alert"
+      },
+      "zmq_server": {
+        "tcp_server": "tcp://127.0.0.1:5100",
+        "topic_camera": "camera"
+      },
+      "notify_auth0_token": {
+        "auth0_tcp": "tcp://127.0.0.1:6100",
+        "auth0_topic_name": "auth0_access_token"
+      },
+      "test": {
+        "tcp": "tcp://127.0.0.1:7100",
+        "topic_name": "zero_mq",
+        "topic_alert": "zero_mq_alert"
+      }
+}
